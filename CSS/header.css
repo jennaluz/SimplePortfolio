@@ -1,0 +1,54 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+header {
+    text-align: center;
+}
+
+.navBar {
+    font-family: "Poppins", sans-serif;
+    display: inline;
+}
+
+.navBar ul {
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    padding-inline-start: 0px;
+    list-style: none; 
+}
+
+.navBar ul li {
+    display: inline;
+    margin: 15px;
+}
+
+.navBar ul li, a, button {
+    text-decoration: none;
+}
+
+#headLogo {
+    display: inline-block;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+button {
+    padding-left: 25px;
+    background-color: rgb(153, 123, 123);
+    color: #ebebeb;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+button:hover, .currentHead {
+    background-color: #ebebeb;
+    color: rgb(153, 123, 123);
+    cursor: pointer;
+    font-weight: bold;
+}

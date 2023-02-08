@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+
+        <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script> 
+        <script>
+            $(function() {
+                $("#header").load("./logoHeader.html");
+                $("#footer").load("./footer.html");
+            });
+        </script>
+
+        <link rel="stylesheet" href="../CSS/basicStyles.css">
+        <link rel="stylesheet" href="../CSS/textbox.css">
+
+        <title>Sign Up</title>
+    </head>
+
+    <body>
+        <div id="header"></div>
+
+        <br><br><br>
+        <div id="openAcc">
+            <h1>Create Your Account</h1>
+
+            <input type="text" id="username" name="username" placeholder="USERNAME"> <br>
+            <input type="password" id="password" name="password" placeholder="PASSWORD">
+            <input type="password" id="verifyPassword" name="verifyPassword" placeholder="VERIFY PASSWORD">
+
+            <a href="./index.html"><button id="logInButton">SIGN UP</button></a>
+            <p>Already have an account? &nbsp <a href="./logIn.html" id="linkLogInSignUp">LOG INTO ACCOUNT</a></p>
+        </div>
+    </body>
+</html>

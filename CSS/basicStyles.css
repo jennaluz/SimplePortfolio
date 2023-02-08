@@ -1,0 +1,50 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');  /*"Poppins", san-serif*/
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');           /*"Aboreto", cursive*/
+
+body {
+    background-color: rgb(153, 123, 123);
+    color: #ebebeb;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+#pageContent {
+    margin: 50px 20%;
+    text-align: left;
+}
+
+h1 {
+    font-family: "Aboreto", cursive;
+}
+
+#contactContent {
+    text-align: center;
+    margin: 50px 20%;
+    display: inline-flex; 
+}
+
+#contactForms {
+    background-color: #ebebeb33;
+    text-align: left;
+    margin-left: 50px;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+#contactForms > textarea {
+    font-family: "Poppins", sans-serif;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-indent: 10px;
+    font-size: 14px;
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    background-color: #ebebeb;
+}
+
+#contactForms > textarea::placeholder {
+    color: black;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+
+        <link rel="stylesheet" href="../CSS/basicStyles.css">
+        <link rel="stylesheet" href="../CSS/footer.css">
+
+        <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script> 
+        <script>
+            $(function() {
+                $('a').each(function() {
+                    if ($(this).prop('href') == window.location.href) {
+                        $(this).addClass('currentFoot');
+                    }
+                });
+            });
+        </script>
+
+        <title></title>
+    </head>
+
+    <body>
+        <footer>
+        <nav class="footBar">
+                <a href="./index.html"><img id="logo" src="../IMAGES/PortfolioLogo2.png" alt="Jenna-Luz Pura Portfolio Logo" width="178.5" height="21.6"></a>
+
+                <ul>
+                    <li><a href="./termsConditions.html">TERMS & CONDITIONS</a></li>
+                    <li><a href="./privacyPolicy.html">PRIVACY POLICY</a></li>
+                    <li><a href="./cookiePolicy.html">COOKIE POLICY</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+
+</html>

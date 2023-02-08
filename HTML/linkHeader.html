@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+
+        <link rel="stylesheet" href="../CSS/basicStyles.css">
+        <link rel="stylesheet" href="../CSS/header.css">
+
+        <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script> 
+        <script>
+            $(function() {
+                $('a').each(function() {
+                    if ($(this).prop('href') == window.location.href) {
+                        $(":button", this).addClass('currentHead');
+                    }
+                });
+            });
+        </script>
+
+        <title></title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navBar">
+                <a href="./index.html"><img id="headLogo" src="../IMAGES/PortfolioLogo2.png" alt="Jenna-Luz Pura Portfolio Logo" width="357" height="42.6"></a>
+
+                <ul>
+                    <li><a href="./index.html"><button>HOME</button></a></li>
+                    <li><a href="./portfolio.html"><button>PORTFOLIO</button></a></li>
+                    <li><a href="./aboutMe.html"><button>ABOUT ME</button></a></li>
+                    <li><a href="./logIn.html"><button>LOG IN</button></a></li>
+                    <li><a href="./signUp.html"><button>SIGN UP</button></a></li>
+                    <li><a href="./contactMe.html"><button>CONTACT ME</button></a></li>
+                </ul>
+            </nav>
+        </header>
+    </body>
+
+</html>

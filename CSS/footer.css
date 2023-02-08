@@ -1,0 +1,25 @@
+footer {
+    margin: 200px 0px 20% 20%;
+    text-align: left;
+}
+
+#footLogo {
+    padding: 0px;
+}
+
+li, a {
+    text-decoration: none;
+    color: #ebebeb;
+}
+
+.footBar ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a:hover, .currentFoot {
+    color: #c8c8c8;
+    cursor: pointer;
+    font-weight: bold;
+}

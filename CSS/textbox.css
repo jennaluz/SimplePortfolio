@@ -1,0 +1,67 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+#openAcc {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background-color: #ebebeb33;
+    margin: 0% 35%;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+input:empty {
+    text-align: start;
+    text-indent: 10px;
+    background-color: #ebebeb00;
+    color: #ebebeb;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0px;
+    line-height: 35px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input[type=password]:not(:placeholder-shown) {
+    font-family: Verdana;
+    letter-spacing: 0.125em;
+}
+
+::placeholder {
+    color: #ebebeb;
+    opacity: 1;
+    font-weight: bold;
+}
+
+#logInButton {
+    margin-top: 20px;
+    padding-left: 25px;
+    background-color: #ebebeb;
+    color: rgb(153, 123, 123);
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    width: 125px;
+}
+
+#logInButton:hover {
+    cursor: pointer;    
+    font-weight: bold;
+    background-color: #ebebebf0;
+}
+
+#linkLogInSignUp {
+    color: #ebebeb;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#linkLogInSignUp:hover {
+    cursor: pointer;
+}
