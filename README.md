@@ -1,2 +1,2 @@
-# portfolio
-A simple portfolio using HTML.
+# Simple Portfolio
+A simple portfolio created with HTML and CSS.
